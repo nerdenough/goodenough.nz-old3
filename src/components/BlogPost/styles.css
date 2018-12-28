@@ -1,0 +1,13 @@
+.blog-post-title {
+  margin-bottom: 0;
+}
+
+.blog-post-date {
+  font-size: 1.6rem;
+  color: #808080;
+  margin: 0;
+}
+
+.blog-post-content {
+  margin-top: 2rem;
+}
