@@ -1,0 +1,21 @@
+.blog-header {
+  background: black;
+}
+
+.blog-header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.blog-title {
+  /* font-family: Raleway, Helvetica, sans-serif; */
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.blog-header a {
+  color: white;
+  text-decoration: none;
+}
