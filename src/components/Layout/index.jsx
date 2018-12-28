@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
       <div className="page">
         <Helmet>
           <link
-            href="https://fonts.googleapis.com/css?family=Raleway:300|Source+Sans+Pro:400,700"
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Source+Sans+Pro:400,700"
             rel="stylesheet"
           />
         </Helmet>

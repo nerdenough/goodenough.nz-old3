@@ -1,6 +1,7 @@
 .footer {
-  background: black;
-  color: white;
+  text-align: center;
+  color: #202020;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.4rem;
   padding: 1rem 0;
 }

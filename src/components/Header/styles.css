@@ -1,21 +1,41 @@
 .blog-header {
-  background: black;
+  background: #3dcfb7;
+  background: linear-gradient(#27c7ac, #80e0d0);
+  text-align: center;
 }
 
 .blog-header .container {
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .blog-title {
-  /* font-family: Raleway, Helvetica, sans-serif; */
-  font-size: 1.6rem;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
   margin: 0;
+}
+
+.blog-location {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .blog-header a {
   color: white;
   text-decoration: none;
+}
+
+.blog-nav {
+  font-size: 2.4rem;
+}
+
+.blog-nav a:not(:last-child) {
+  margin-right: 1rem;
 }
