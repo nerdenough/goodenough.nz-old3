@@ -1,14 +1,15 @@
 import React from 'react'
-import Container from '../Container'
+import { Link } from 'gatsby'
 
 import './styles.css'
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
-        &copy; {new Date().getFullYear()} Brendan Goodenough
-      </Container>
+      &copy; {new Date().getFullYear()}&nbsp;
+      <Link className="footer-link" to="/">
+        Brendan Goodenough
+      </Link>
     </footer>
   )
 }
