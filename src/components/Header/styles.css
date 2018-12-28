@@ -17,6 +17,7 @@
   font-size: 3.2rem;
   font-weight: 800;
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .blog-location {
@@ -30,6 +31,7 @@
 .blog-header a {
   color: white;
   text-decoration: none;
+  border-bottom: none;
 }
 
 .blog-nav {

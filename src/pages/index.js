@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import BlogPostPreview from '../components/BlogPostPreview'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
@@ -12,15 +13,10 @@ const IndexPage = ({ data }) => {
         keywords={['brendan goodenough', 'brendan', 'goodenough', 'nerdenough']}
       />
       <div className="blog-posts">
-        {posts.map(({ node: post }) => {
-          return (
-            <div className="blog-post-preview">
-              <h3>{post.frontmatter.title}</h3>
-              <small>{post.frontmatter.date}</small>
-              <p>{post.excerpt}</p>
-            </div>
-          )
-        })}
+        <h1>Latest Posts</h1>
+        {posts.map(({ node: post }) => (
+          <BlogPostPreview post={post} />
+        ))}
       </div>
     </Layout>
   )

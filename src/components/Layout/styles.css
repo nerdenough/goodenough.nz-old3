@@ -7,6 +7,12 @@ body {
   font-size: 10px;
 }
 
+.page {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 30rem 1fr auto;
+}
+
 h1,
 h2,
 h3,
@@ -33,7 +39,6 @@ h3 {
 }
 
 small {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.4rem;
   color: #808080;
   margin: 0;
@@ -46,8 +51,8 @@ p {
   margin-top: 1rem;
 }
 
-.page {
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: 30rem 1fr auto;
+a {
+  color: #202020;
+  text-decoration: none;
+  border-bottom: 0.2rem solid #3dcfb7;
 }
