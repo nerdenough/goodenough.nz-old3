@@ -3,15 +3,13 @@
 }
 
 .blog-post-preview-title {
-  margin-top: 0;
-  margin-bottom: 1.4rem;
+  margin: 0;
 }
 
 .blog-post-preview-title a {
-  color: #202020;
+  color: #40bba6;
   text-decoration: none;
-  padding-bottom: 0.2rem;
-  border-bottom: 0.5rem solid #3dcfb7;
+  border-bottom: none;
 }
 
 .blog-post-preview-date {

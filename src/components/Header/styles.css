@@ -1,6 +1,6 @@
 .blog-header {
-  background: #3dcfb7;
-  background: linear-gradient(#27c7ac, #80e0d0);
+  background: #40bba6;
+  /* background: linear-gradient(#27c7ac, #80e0d0); */
   text-align: center;
 }
 
@@ -31,7 +31,6 @@
 .blog-header a {
   color: white;
   text-decoration: none;
-  border-bottom: none;
 }
 
 .blog-nav {
