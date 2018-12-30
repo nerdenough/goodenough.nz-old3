@@ -9,5 +9,24 @@
 }
 
 .blog-post-content {
+  flex-direction: column;
+  font-size: 1.8rem;
   margin-top: 1rem;
+}
+
+.blog-post-content img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.md-figure {
+  max-width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #808080;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
 }
