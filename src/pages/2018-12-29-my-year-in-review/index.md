@@ -2,6 +2,9 @@
 title: 'My 2018 Year In Review'
 date: '2018-12-31'
 path: '/2018-year-in-review'
+description:
+  '2018 has been a pretty intense year to say the least. This is my reflection
+  of my personal highs and lows for the year.'
 ---
 
 2018 has been a pretty intense year to say the least. It's been filled with a
