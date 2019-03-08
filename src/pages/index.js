@@ -3,6 +3,11 @@ import { graphql } from 'gatsby'
 import BlogPostPreview from '../components/BlogPostPreview'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '../lib/font-awesome.css'
+
+// Import css manually to fix initial scaling
+config.autoAddCss = false
 
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark

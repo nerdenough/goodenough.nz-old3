@@ -25,28 +25,28 @@ const Header = ({ siteTitle }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} style={{ fontSize: '2.4rem' }} />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           href="https://www.linkedin.com/in/brendangoodenough"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '2.4rem' }} />
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href="https://twitter.com/nerdenough"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faTwitter} style={{ fontSize: '2.4rem' }} />
+          <FontAwesomeIcon icon={faTwitter} />
         </a>
         <a
           href="https://youtube.com/plzbgoodenough"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faYoutube} style={{ fontSize: '2.4rem' }} />
+          <FontAwesomeIcon icon={faYoutube} />
         </a>
       </nav>
     </Container>
